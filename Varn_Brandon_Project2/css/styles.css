@@ -1,0 +1,156 @@
+body {
+	background-color: hsla(206,60%,56%,1);
+	font-family: 'Cabin', sans-serif;
+	font-size: 0.75em;
+	line-height: 1.4em;
+	width: 800px;
+	margin: 10px auto;
+	border: 3px;
+}
+
+h1 {
+	color: hsla(0,0%,0%,1);
+	font-size: 1.5em;
+	font-weight: bold;
+	text-align: left;
+	margin: 20px;
+}
+
+h2 {
+	color: hsla(0,0%,0%,1);
+	font-size: 1.25em;
+	font-weight: bold;
+	text-align: left;
+	margin: 20px;
+}
+
+h3 {
+	color: hsla(0,0%,0%,1);
+	font-size: 1.25em;
+	font-weight: bold;
+	text-align: left;
+	margin: 20px;
+}
+
+h4 {
+	color: hsla(60,100%,50%,1);
+	font-size: 1.25em;
+	font-weight: bold;
+	text-align: left;
+	margin: 20px;
+}
+
+a:link {
+	color: #910004;
+	text-decoration:none;
+}
+
+a:visited{
+	color:black;
+}
+
+a:hover{
+	color: #BCDAF1;
+	text-decoration: underline;
+}
+
+a:active {
+	color: #FFF;
+}
+
+div.links{
+    border: 1px solid;
+	border-color: #000000;
+	background-color: #910004;
+	margin: 10px;
+	font-size: 1.25em;
+}
+
+ul.links {
+	list-style-type: none;
+}
+
+.links li {
+	display: inline-block;
+	margin: 0px;
+	border: 1px solid;
+	border-color: #000000;
+	padding: 10px;
+	background-color: #ffffff
+}
+
+.whole {
+	border: 3px solid;
+	border-color: #000000;
+	background-color: rgb(211, 211, 211);
+}
+
+p.one {
+	border: 2px solid;
+	border-radius: 25px;
+	border-color:#ffffff;
+	background-color: #ffffff;
+	height: 75%;
+	width:80%;
+	padding: 20px;
+	margin: 10px;
+	font-style:normal;
+	-moz-box-shadow: 5px 5px 5px #777777; 
+	-webkit-box-shadow: 5px 5px 5px #777777;
+	box-shadow: 5px 5px 5px #777777;
+}
+
+p.two {
+	border: 2px solid;
+	border-radius: 25px;
+	border-color:#ffffff;
+	background-color: #ffffff;
+	height: 75%;
+	width:80%;
+	padding: 20px;
+	margin: 10px;
+	font-style:normal;
+	-moz-box-shadow: 5px 5px 5px #777777; 
+	-webkit-box-shadow: 5px 5px 5px #777777;
+	box-shadow: 5px 5px 5px #777777;
+}
+
+p.three {				
+	color: #fd0006;
+	text-shadow: 1px 1px 0px #000000;
+	font-size: 1.25em;
+	height: 75%;
+	width:80%;
+	margin: auto 20px;
+	font-style: normal;
+}
+
+ul.a {
+	list-style-type: square;
+}
+
+ol.b {
+	color: #FFFFFF;
+	text-shadow: 1px 1px 0px #000000;
+	font-size: 1em;
+	list-style-type: upper-roman;
+}
+
+ul.img {
+	border: 0px;
+	margin: 0px;
+	padding: 0px;
+	list-style-type:none;
+}
+
+.img li {
+  display: inline-block;
+}
+
+.footer {
+	border: 1px solid;
+	border-color: #000000;
+	background-color: #910004;
+	padding: 10px;
+	font-size: 1.25em;	
+}
