@@ -94,7 +94,7 @@ ul.links {
 	background-color: rgb(211, 211, 211);
 }
 
-/* created individual paragraph class's because I was considering putting them next to each other, waiting to learn float*/
+/* created individual paragraph class's because I was considering putting them next to each other, waiting to learn float box shadow added to each*/
 
 p.one {
 	border: 2px solid;
@@ -142,6 +142,8 @@ p.three {
 ul.a {
 	list-style-type: square;
 }
+
+/* added txt shadow */
 
 ol.b {
 	color: #FFFFFF;
