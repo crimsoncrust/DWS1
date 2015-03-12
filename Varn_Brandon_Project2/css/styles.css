@@ -1,3 +1,4 @@
+/* body font margins auto margins */
 body {
 	background-color: hsla(206,60%,56%,1);
 	font-family: 'Cabin', sans-serif;
@@ -7,6 +8,8 @@ body {
 	margin: 10px auto;
 	border: 3px;
 }
+
+/* headings can be combined wanted to keep them this way to play with colors */
 
 h1 {
 	color: hsla(0,0%,0%,1);
@@ -40,6 +43,8 @@ h4 {
 	margin: 20px;
 }
 
+/* links in order */
+
 a:link {
 	color: #910004;
 	text-decoration:none;
@@ -57,6 +62,8 @@ a:hover{
 a:active {
 	color: #FFF;
 }
+
+/* making links display inline and setting up a navigation box with a div tag */
 
 div.links{
     border: 1px solid;
@@ -79,11 +86,15 @@ ul.links {
 	background-color: #ffffff
 }
 
+/* put a div tag around entire body to make a border color */
+
 .whole {
 	border: 3px solid;
 	border-color: #000000;
 	background-color: rgb(211, 211, 211);
 }
+
+/* created individual paragraph class's because I was considering putting them next to each other, waiting to learn float*/
 
 p.one {
 	border: 2px solid;
@@ -125,6 +136,9 @@ p.three {
 	font-style: normal;
 }
 
+
+/* just changing list style type for assignment */
+
 ul.a {
 	list-style-type: square;
 }
@@ -136,6 +150,8 @@ ol.b {
 	list-style-type: upper-roman;
 }
 
+/* created a image display line so I could put the next to each other they are currently in a list*/
+
 ul.img {
 	border: 0px;
 	margin: 0px;
@@ -146,6 +162,8 @@ ul.img {
 .img li {
   display: inline-block;
 }
+
+/* created a footer box */
 
 .footer {
 	border: 1px solid;
