@@ -1,0 +1,7 @@
+Link to live github
+
+http://crimsoncrust.github.io/DWS1/Varn_Brandon_Project2/index.html
+
+Link to github directory repo
+
+https://github.com/crimsoncrust/DWS1/tree/gh-pages

@@ -1,0 +1,222 @@
+/* body font margins auto margins */
+body {
+	font-family: 'Cabin', sans-serif;
+	font-size: 0.75em;
+	line-height: 1.4em;
+	width: 76%;
+	margin: 10px auto;
+	border: 3px;
+	overflow:auto;
+	background-image: url("../images/pokerfloral.jpg");
+	background-repeat: repeat;
+}
+
+/*float two columns*/
+
+#floatleftcolumn  {
+	float: left;
+	width: 37%;
+	margin: 1%;
+	
+}
+
+
+#floatright {
+	float: left;
+	width: 37%;
+	margin: 1%;
+	
+}
+
+/* headings can be combined wanted to keep them this way to play with colors */
+
+h1 {
+	color: hsla(60,100%,50%,1);
+	font-size: 1.5em;
+	font-weight: bold;
+	text-align: left;
+	margin: 20px;
+}
+
+h2 {
+	color: hsla(60,100%,50%,1);
+	font-size: 1.25em;
+	font-weight: bold;
+	text-align: left;
+	margin: 20px;
+}
+
+h3 {
+	color: hsla(60,100%,50%,1);
+	font-size: 1.25em;
+	font-weight: bold;
+	text-align: left;
+	background-image: url("../images/dhicon.png");
+	background-repeat: no-repeat;
+	background-position: left;
+}
+
+h4 {
+	color: hsla(60,100%,50%,1);
+	font-size: 1.25em;
+	font-weight: bold;
+	text-align: left;
+	margin: 20px;
+}
+
+.column {
+	border: 1px solid;
+	background: #4c4c4c; /* Old browsers */
+	background: -moz-linear-gradient(top,  #4c4c4c 0%, #595959 12%, #666666 25%, #474747 39%, #2c2c2c 50%, #000000 51%, #111111 60%, #2b2b2b 76%, #1c1c1c 91%, #131313 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#4c4c4c), color-stop(12%,#595959), color-stop(25%,#666666), color-stop(39%,#474747), color-stop(50%,#2c2c2c), color-stop(51%,#000000), color-stop(60%,#111111), color-stop(76%,#2b2b2b), color-stop(91%,#1c1c1c), color-stop(100%,#131313)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #4c4c4c 0%,#595959 12%,#666666 25%,#474747 39%,#2c2c2c 50%,#000000 51%,#111111 60%,#2b2b2b 76%,#1c1c1c 91%,#131313 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #4c4c4c 0%,#595959 12%,#666666 25%,#474747 39%,#2c2c2c 50%,#000000 51%,#111111 60%,#2b2b2b 76%,#1c1c1c 91%,#131313 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #4c4c4c 0%,#595959 12%,#666666 25%,#474747 39%,#2c2c2c 50%,#000000 51%,#111111 60%,#2b2b2b 76%,#1c1c1c 91%,#131313 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #4c4c4c 0%,#595959 12%,#666666 25%,#474747 39%,#2c2c2c 50%,#000000 51%,#111111 60%,#2b2b2b 76%,#1c1c1c 91%,#131313 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4c4c4c', endColorstr='#131313',GradientType=0 ); /* IE6-9 */
+}
+
+
+/* links in order */
+
+a:link {
+	color: #910004;
+	text-decoration:none;
+}
+
+a:visited{
+	color:black;
+}
+
+a:hover{
+	color: #BCDAF1;
+	text-decoration: underline;
+}
+
+a:active {
+	color: #FFF;
+}
+
+/* making links display inline and setting up a navigation box with a div tag */
+
+div.links{
+    border: 1px solid;
+	border-color: #000000;
+	background-color: #910004;
+	margin: 10px;
+	font-size: 1.25em;
+}
+
+ul.links {
+	list-style-type: none;
+}
+
+.links li {
+	display: inline-block;
+	margin: 0px;
+	border: 1px solid;
+	border-color: #000000;
+	padding: 10px;
+	background-color: #ffffff
+}
+
+/* put a div tag around entire body to make a border color */
+
+.whole {
+	border: 3px solid;
+	border-color: #000000;
+	background-image: url("../images/tpb.jpg");
+	background-size: cover;
+	overflow:auto;
+}
+
+/* created individual paragraph class's because I was considering putting them next to each other, waiting to learn float box shadow added to each*/
+
+p.one {
+	border: 2px solid;
+	border-radius: 25px;
+	border-color:#ffffff;
+	background-color: #ffffff;
+	height: 75%;
+	width:80%;
+	padding: 20px;
+	margin: 10px;
+	font-style:normal;
+	-moz-box-shadow: 5px 5px 5px #777777; 
+	-webkit-box-shadow: 5px 5px 5px #777777;
+	box-shadow: 5px 5px 5px #777777;
+}
+
+p.two {
+	border: 2px solid;
+	border-radius: 25px;
+	border-color:#ffffff;
+	background-color: #ffffff;
+	height: 75%;
+	width:80%;
+	padding: 20px;
+	margin: 10px;
+	font-style:normal;
+	-moz-box-shadow: 5px 5px 5px #777777; 
+	-webkit-box-shadow: 5px 5px 5px #777777;
+	box-shadow: 5px 5px 5px #777777;
+}
+
+p.three {				
+	color: #fd0006;
+	text-shadow: 1px 1px 0px #000000;
+	font-size: 1.25em;
+	height: 75%;
+	width:80%;
+	margin: auto 20px;
+	font-style: normal;
+}
+
+#rules {
+	margin:3%;
+}
+
+
+/* just changing list style type for assignment */
+
+ul.a {
+	list-style-type: square;
+	color: hsla(206,65%,84%,1);
+}
+
+/* added txt shadow */
+
+ol.b {
+	color: #FFFFFF;
+	text-shadow: 1px 1px 0px #000000;
+	font-size: 1em;
+	list-style-type: upper-roman;
+}
+
+/* created a image display line so I could put the next to each other they are currently in a list changed it to a floating element for a two column element*/
+
+ul.img {
+	border: 0px;
+	margin: 0px;
+	padding: 0px;
+	list-style-type:none;
+}
+
+.img li {
+  display: inline-block;
+} 
+
+/* created a footer box */
+
+.clear {
+	clear: both;
+}
+
+#footer {
+	border: 1px solid;
+	border-color: #000000;
+	background-color: #910004;
+	padding: 10px;
+	font-size: 1.25em;
+	clear: both;
+}
