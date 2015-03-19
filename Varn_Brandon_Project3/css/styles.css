@@ -52,6 +52,7 @@ h3 {
 	font-weight: bold;
 	text-align: left;
 	margin: 20px;
+	clear:left;
 }
 
 h4 {
@@ -65,9 +66,8 @@ h4 {
 .here {
 	background-image: url("../images/dhicon.png");
 	background-repeat: no-repeat;
-	height: 100%;
-	padding: 13%;
-
+	padding:1% 0% 0 8%;
+	margin:3%;
 }
 
 .column {
@@ -221,6 +221,7 @@ ul.img {
 
 .clear {
 	clear: both;
+	display:block;
 }
 
 #movie {
