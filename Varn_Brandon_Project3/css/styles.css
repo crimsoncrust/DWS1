@@ -66,7 +66,7 @@ h4 {
 .here {
 	background-image: url("../images/dhicon.png");
 	background-repeat: no-repeat;
-	padding:1% 0% 0 8%;
+	padding:1% 0% 0% 8%;
 	margin:3%;
 }
 
@@ -182,10 +182,7 @@ p.three {
 	font-style: normal;
 }
 
-#rules {
-	margin:3%;
 
-}
 
 
 /* just changing list style type for assignment */
@@ -224,10 +221,12 @@ ul.img {
 	display:block;
 }
 
-#movie {
-	width: 100% !important;
-	height: auto !important;
+
+video {
+  width: 100%    !important;
+  height: auto   !important;
 }
+
 
 #footer {
 	border: 1px solid;
@@ -237,3 +236,4 @@ ul.img {
 	font-size: 1.25em;
 	clear: both;
 }
+
