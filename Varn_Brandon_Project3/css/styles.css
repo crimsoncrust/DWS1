@@ -3,7 +3,7 @@ body {
 	font-family: 'Cabin', sans-serif;
 	font-size: 0.75em;
 	line-height: 1.4em;
-	width: 76%;
+	width: 80%;
 	margin: 10px auto;
 	border: 3px;
 	overflow:auto;
@@ -15,7 +15,7 @@ body {
 
 #floatleftcolumn  {
 	float: left;
-	width: 37%;
+	width: 49%;
 	margin: 1%;
 	
 }
@@ -23,7 +23,7 @@ body {
 
 #floatright {
 	float: left;
-	width: 37%;
+	width: 47%;
 	margin: 1%;
 	
 }
@@ -56,6 +56,14 @@ h3 {
 }
 
 h4 {
+	color: hsla(60,100%,50%,1);
+	font-size: 1.25em;
+	font-weight: bold;
+	text-align: left;
+	margin: 20px;
+}
+
+h5 {
 	color: hsla(60,100%,50%,1);
 	font-size: 1.25em;
 	font-weight: bold;
@@ -237,3 +245,29 @@ video {
 	clear: both;
 }
 
+table {
+	color: hsla(360, 100%, 100%, 1);
+	width:100%;
+	border-spacing:1%;
+	border-collapse: collapse;
+	font-size: 1.25em;
+	display:none;
+}
+
+th, td {
+	border:10px solid;
+    padding:2%;
+}
+
+tr:hover {
+  background-color: hsla(360, 100%, 79%, 1);
+}
+
+th {
+	text-align:left;
+}
+
+#table {
+	width:98%;
+	margin:1%;
+}

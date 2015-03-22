@@ -1,0 +1,325 @@
+/* body font margins auto margins */
+body {
+	font-family: 'Cabin', sans-serif;
+	font-size: 0.75em;
+	line-height: 1.4em;
+	width: 80%;
+	margin: 10px auto;
+	border: 3px;
+	overflow:auto;
+	background-image: url("../images/pokerfloral.jpg");
+	background-repeat: repeat;
+}
+
+/*float two columns*/
+
+#floatleftcolumn  {
+	float: left;
+	width: 49%;
+	margin: 1%;
+	
+}
+
+
+#floatright {
+	float: left;
+	width: 47%;
+	margin: 1%;
+	
+}
+
+/* headings can be combined wanted to keep them this way to play with colors */
+
+h1 {
+	color: hsla(60,100%,50%,1);
+	font-size: 1.5em;
+	font-weight: bold;
+	text-align: left;
+	margin: 20px;
+}
+
+h2 {
+	color: hsla(60,100%,50%,1);
+	font-size: 1.25em;
+	font-weight: bold;
+	text-align: left;
+	margin: 20px;
+}
+
+h3 {
+	color: hsla(60,100%,50%,1);
+	font-size: 1.25em;
+	font-weight: bold;
+	text-align: left;
+	margin: 20px;
+	clear:left;
+}
+
+h4 {
+	color: hsla(60,100%,50%,1);
+	font-size: 1.25em;
+	font-weight: bold;
+	text-align: left;
+	margin: 20px;
+}
+
+h5 {
+	color: hsla(60,100%,50%,1);
+	font-size: 1.25em;
+	font-weight: bold;
+	text-align: left;
+	margin: 20px;
+}
+
+.here {
+	background-image: url("../images/dhicon.png");
+	background-repeat: no-repeat;
+	padding:1% 0% 0% 8%;
+	margin:3%;
+}
+
+.column {
+	border: 1px solid;
+	background: #4c4c4c; /* Old browsers */
+	background: -moz-linear-gradient(top,  #4c4c4c 0%, #595959 12%, #666666 25%, #474747 39%, #2c2c2c 50%, #000000 51%, #111111 60%, #2b2b2b 76%, #1c1c1c 91%, #131313 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#4c4c4c), color-stop(12%,#595959), color-stop(25%,#666666), color-stop(39%,#474747), color-stop(50%,#2c2c2c), color-stop(51%,#000000), color-stop(60%,#111111), color-stop(76%,#2b2b2b), color-stop(91%,#1c1c1c), color-stop(100%,#131313)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #4c4c4c 0%,#595959 12%,#666666 25%,#474747 39%,#2c2c2c 50%,#000000 51%,#111111 60%,#2b2b2b 76%,#1c1c1c 91%,#131313 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #4c4c4c 0%,#595959 12%,#666666 25%,#474747 39%,#2c2c2c 50%,#000000 51%,#111111 60%,#2b2b2b 76%,#1c1c1c 91%,#131313 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #4c4c4c 0%,#595959 12%,#666666 25%,#474747 39%,#2c2c2c 50%,#000000 51%,#111111 60%,#2b2b2b 76%,#1c1c1c 91%,#131313 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #4c4c4c 0%,#595959 12%,#666666 25%,#474747 39%,#2c2c2c 50%,#000000 51%,#111111 60%,#2b2b2b 76%,#1c1c1c 91%,#131313 100%); /* W3C */	
+}
+
+
+/* links in order */
+
+a:link {
+	color: #910004;
+	text-decoration:none;
+}
+
+a:visited{
+	color:black;
+}
+
+a:hover{
+	color: #BCDAF1;
+	text-decoration: underline;
+}
+
+a:active {
+	color: #FFF;
+}
+
+/* making links display inline and setting up a navigation box with a div tag */
+
+div.links{
+    border: 1px solid;
+	border-color: #000000;
+	background: #6d0019; /* Old browsers */
+    background: -moz-linear-gradient(top,  #6d0019 1%, #6d0019 1%, #6d0019 1%, #8f0222 44%, #a90329 99%, #a90329 99%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(1%,#6d0019), color-stop(1%,#6d0019), color-stop(1%,#6d0019), color-stop(44%,#8f0222), color-stop(99%,#a90329), color-stop(99%,#a90329)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #6d0019 1%,#6d0019 1%,#6d0019 1%,#8f0222 44%,#a90329 99%,#a90329 99%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #6d0019 1%,#6d0019 1%,#6d0019 1%,#8f0222 44%,#a90329 99%,#a90329 99%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #6d0019 1%,#6d0019 1%,#6d0019 1%,#8f0222 44%,#a90329 99%,#a90329 99%); /* IE10+ */
+	background: linear-gradient(to bottom,  #6d0019 1%,#6d0019 1%,#6d0019 1%,#8f0222 44%,#a90329 99%,#a90329 99%); /* W3C */	
+	font-size: 1.25em;
+}
+
+ul.links {
+	list-style-type: none;
+}
+
+.links li {
+	display: inline-block;
+	margin: 0px;
+	border: 1px solid;
+	border-color: #000000;
+	padding: 10px;
+	background-color: #ffffff
+}
+
+/* put a div tag around entire body to make a border color */
+
+.whole {
+	border: 3px solid;
+	border-color: #000000;
+	background-image: url("../images/pokercard.jpg");
+	background-size: cover;
+	overflow:auto;
+}
+
+/* created individual paragraph class's because I was considering putting them next to each other, waiting to learn float box shadow added to each*/
+
+p.one {
+	border: 2px solid;
+	border-radius: 25px;
+	border-color:#ffffff;
+	background-color: #ffffff;
+	height: 75%;
+	width:80%;
+	padding: 5%;
+	margin: 2%;
+	font-style:normal;
+	-moz-box-shadow: 5px 5px 5px #777777; 
+	-webkit-box-shadow: 5px 5px 5px #777777;
+	box-shadow: 5px 5px 5px #777777;
+}
+
+p.two {
+	border: 2px solid;
+	border-radius: 25px;
+	border-color:#ffffff;
+	background-color: #ffffff;
+	height: 75%;
+	width:80%;
+	padding: 5%;
+	margin: 2%;
+	font-style:normal;
+	-moz-box-shadow: 5px 5px 5px #777777; 
+	-webkit-box-shadow: 5px 5px 5px #777777;
+	box-shadow: 5px 5px 5px #777777;
+}
+
+p.three {				
+	color: #fd0006;
+	text-shadow: 1px 1px 0px #000000;
+	font-size: 1.25em;
+	height: 75%;
+	width:80%;
+	margin: auto 2%;
+	font-style: normal;
+}
+
+
+
+
+/* just changing list style type for assignment */
+
+ul.a {
+	list-style-type: square;
+	color: hsla(141, 100%, 74%, 1);
+}
+
+/* added txt shadow */
+
+ol.b {
+	color: #FFFFFF;
+	text-shadow: 1px 1px 0px #000000;
+	font-size: 1em;
+	list-style-type: upper-roman;
+}
+
+/* created a image display line so I could put the next to each other they are currently in a list changed it to a floating element for a two column element*/
+
+ul.img {
+	border: 0px;
+	margin: 0px;
+	padding: 0px;
+	list-style-type:none;
+}
+
+.img li {
+  display: inline-block;
+} 
+
+/* created a footer box */
+
+.clear {
+	clear: both;
+	display:block;
+}
+
+
+video {
+  width: 100%    !important;
+  height: auto   !important;
+}
+
+
+#footer {
+	border: 1px solid;
+	border-color: #000000;
+	background-color: #910004;
+	padding: 10px;
+	font-size: 1.25em;
+	clear: both;
+}
+
+table {
+	color: hsla(360, 100%, 100%, 1);
+	border-spacing:1%;
+	border-collapse: collapse;
+	font-size: 1.25em;
+	display:none;
+	overflow:auto;
+}
+
+th, td {
+	border:10px solid;
+    padding:2%;
+}
+
+tr:hover {
+  background-color: hsla(360, 100%, 79%, 1);
+}
+
+th {
+	text-align:left;
+}
+
+#table {
+	margin:1%;
+	width:70%;
+}
+
+button {
+	margin:2%;
+	border:2px solid;
+}
+
+form {
+	color: hsla(360, 100%, 100%, 1);
+	margin:2%;
+	font-size:1.5em;
+	width:50%;
+}
+
+fieldset {
+	border:10px solid;
+}
+
+input {
+	font-size: 1em;
+	color:hsla(141, 100%, 0%, 1);
+	background-color:hsla(141, 100%, 74%, 1);
+	border:1px solid;
+	border-radius: 10px;
+	padding:1%;
+	margin:1%;
+}
+
+input#submit{
+	background-color:hsla(141, 100%, 74%, 1);
+}
+
+input#submit:hover {
+	color:hsla(141, 100%, 0%, .5);
+	border:1px solid;
+	background-color:hsla(141, 100%, 74%, .75);
+}
+
+input#reset{
+	background-color:hsla(141, 100%, 74%, 1);
+}
+
+input#reset:hover {
+	color:hsla(141, 100%, 0%, .5);
+	border:1px solid;
+	background-color:hsla(141, 100%, 74%, .75);
+}
+
+.comments {
+	background-color: hsla(141, 100%, 74%, 1);
+	width:90%;
+	height:100px;
+}

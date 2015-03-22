@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <title>My Hobby Poker</title>
+  <!-- Style sheet link -->
+  <link rel="stylesheet" href="css/styles.css">
+  <!-- link to google font -->
+  <link href='http://fonts.googleapis.com/css?family=Cabin' rel='stylesheet' type='text/css'>
+  <script type="text/javascript" src="JavaScript/JavaScript.js"></script>
+ </head>
+ <body>
+ <?php include 'forms.php';?>
+ <!-- navigation -->
+ <div class="whole">
+  <div class="links">
+   <ul>
+    <li><a href="#players">Players</a><br/></li>
+    <li><a href="#rules">The Rules</a><br/></li>
+    <li><a href="#pictures">Pictures</a><br/></li>
+    <li><a href="#table">Hand Ranks</a><br/></li>
+   </ul>
+  	<!--playing poker header and list -->
+</div>
+ <div id="floatleftcolumn">
+ <div class="column">
+ <div class="here">
+  <h1>Playing Poker With the Boys</h1>
+  </div>
+  <p class="one">I have a group of friends and every friend of mine has a great time playing.  We play every Wednesday from 7 to 10 pm. When you come remember to bring your <strong>poker face</strong>.  We call the poker house 'The Dog House' <abbr title="The Dog House">DGH</abbr>.</p>
+  <div class="here">
+  <h2 id="players">Who are the players!</h2>
+  </div>
+  <p class="two">We have a very eclectic group of players.  Each one brings something special to the game.  From "The Boss" Schuyler who owns and operates the poker house.  To AJ "The Dealer" who always has a angle.  And "The Brains" Brandon the guy who always has a answer to your questions.  All of us bring a certain style and degree of awesomeness to the group.</p>
+  <ul class="a">
+	<li>Schuyler "The Boss"</li>
+  	<li>Brandon "The Brain"</li>
+  	<li>Brett "The Sneaker"</li>
+  	<li>Vinny "The Hopeless"</li>
+	<li>AJ "The Dealer"</li>
+  	<li>Smitty "The Lucky"</li>
+  	<li>Tom "The Wise"</li>
+  </ul>
+ </div>
+ </div>
+  <!-- rules and list of rules class and id added for header and paragraph -->
+ <div id="floatright">
+ <div class="column">
+   <div class="here">
+  <h3 class="clear">The Rules</h3>
+ </div>
+  <p id="rules" class="three">We have very specific rules at the dog house.</p>
+  <ol class="b">
+  	<li>Schuyler and AJ make the rules.</li>
+  	<li>The rules are to be followed at all times.</li>
+  	<li>We have a high hand pot with two quarters taken out each hand.</li>
+  	<li>We have a K 9 pot with one quarter taken out each hand.</li>
+  	<li>We must have a minimum of four players not to exceed 10.</li>
+  	<li>If all else fails refer to rule 1.</li>
+  </ol>
+  <video controls="controls" src="videos/beforegame.mp4"></video>
+ </div>
+ </div>
+  	<!-- pictures and list of pictures to display inline block -->
+ <h4 id="pictures" class="clear">Pictures of DHG and the boys</h4>
+ <ul class="img">
+  	<li><figure> <a href="images/TheBoss.jpg"><img src="images/TheBossSmall.jpg" alt="Head Honcho of the poker game."/></a>
+  		<figcaption>The Boss of the DHG.</figcaption> </figure></li>
+  	<li><figure> <a href="images/TheBrains.jpg"><img src="images/TheBrainsSmall.jpg" alt="The Brains of the Operation."/></a>
+  		<figcaption>The Brains of DHG.</figcaption></figure></li>
+  	<li><figure> <a href="images/TheDogHouse.jpg"><img src="images/TheDogHouseSmall.jpg" alt="The Dog House."/></a>
+  		<figcaption>The Dog House Watch Out!</figcaption></figure></li>
+ </ul>
+ <h5> Hand Rankings</h5>
+ <button onclick="cecontrol('hands')">Hand Rankings</button>
+ <div class="column" id="table">
+ <table id="hands">
+ 	<thead>
+ 		<tr>
+ 			<th></th>
+ 			<th scope="col">The Cards</th>
+ 		</tr>
+ 	</thead>
+ 	<tbody>
+ 		<tr>
+ 			<td>Royal Flush</td>
+ 			<td>This hand contains five cards in sequence all of the same suit.</td>
+ 		</tr>
+ 		<tr>
+ 			<td>Straight Flush</td>
+ 			<td>This hand contains five cards in sequence, all of the same suit.</td>
+ 		</tr>
+ 		<tr>
+ 			<td>4 Of A Kind</td>
+ 			<td>This hand contains all four cards of one rank and any other unmatched card.</td>
+ 		</tr>
+ 		<tr>
+ 			<td>Full House</td>
+ 			<td>This hand contains three matching cards of one rank and two matching cards of another rank.</td>
+ 		</tr>
+ 		<tr>
+ 			<td>Flush</td>
+ 			<td>This hand contains all five cards of the same suit, but not in sequence.</td>
+ 		</tr>
+ 		<tr>
+ 			<td>Straight</td>
+ 			<td>This hand contains five cards of sequential rank in at least two different suits.</td>
+ 		</tr>
+ 		<tr>
+ 			<td>3 Of A Kind</td>
+ 			<td>This hand contains three cards of the same rank, with two cards not of this rank nor the same as each other.</td>
+ 		</tr>
+ 		<tr>
+ 			<td>2 Pair</td>
+ 			<td>This hand contains two cards of the same rank, plus two cards of another rank.</td>
+ 		</tr>
+ 		<tr>
+ 			<td>1 Pair</td>
+ 			<td>This hand contains two cards of one rank, plus three cards which are not of this rank nor the same.</td>
+ 		</tr>
+ 		<tr>
+ 			<td>High Card</td>
+ 			<td>Made of any five cards not meeting any of the above requirements.</td>
+ 		</tr>
+ 	</tbody>
+ 	<tfoot>
+ 		<tr>
+ 			<td></td>
+ 			<td colspan="2">Make sure you bet right!  Or you WILL pay the price!</td>
+ 		</tr>
+ 	</tfoot>
+ </table>
+ </div>	
+ <div>
+ <form id="FormData" action="forms.php" method="POST">
+ 	<fieldset>
+ 	<label for="firstName">First name:</label><br>
+ 	<input id="firstName" type="text" name="firstname" required="required" placeholder="first">
+ 	<br>
+ 	<br>
+ 	<label for="lastName">Last Name:</label><br>
+ 	<input id="lastName" type="text" name="lastname" required="required" placeholder="last">
+ 	<br>
+ 	<br>
+ 	<label for="Email">Email:</label><br>
+ 	<input id="Email" type="email" name="Email" required="required" placeholder="@anywhere.com">
+ 	<br>
+ 	<br>
+ 	<label for="nickName">Nick Name:</label><br>
+ 	<input id="nickName" type="text" name="NickName" placeholder="crimsoncrust"> 	
+ 	<p>Who are you? Pick one!:<br>
+ 	<input type="radio" name="what" value="Groupie" checked="checked"/> Groupie
+ 	<input type="radio" name="what" value="Player"/> Player
+ 	<input type="radio" name="what" value="UltraFan"/> UltraFan
+ 	</p>
+ 	<p>Tell us all about yourself!</p>
+ 	<textarea name="comments" class="comments">
+ 		Tell us about yourself!
+ 	</textarea>
+ 	<p>What would you like to see changed or updated?</p>
+ 	<textarea name="comments" class="comments">
+ 		Enter all ideas and comments...
+ 	</textarea>   
+ 	<p>Do you wish to be added to our email list?</p>
+ 	<select name="Add">
+ 	<option value="no" selected="selected">No</option>
+ 	<option value ="yes">Yes</option>
+ 	</select>
+ 	<br>
+ 	<br>
+ 	<p>
+ 	<input type="submit" value="submit" id="submit">
+ 	<input type="reset" value="reset" id="reset">
+ 	</p>
+ 	</fieldset>
+ </form>
+  	<!-- footer -->
+</div>
+ <div id="footer">
+  <p>&copy; TheDogHouse</p>
+ </div>
+</body>
+</html>
