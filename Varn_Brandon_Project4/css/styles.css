@@ -346,6 +346,8 @@ fieldset {
 fieldset.submit {
 	float: none;
 	width: auto;
+}
 
-
+figcaption {
+	color:hsla(360, 100%, 100%, 1);
 }
