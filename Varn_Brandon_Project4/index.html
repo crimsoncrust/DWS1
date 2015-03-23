@@ -10,7 +10,6 @@
   <script type="text/javascript" src="JavaScript/JavaScript.js"></script>
  </head>
  <body>
- <?php include 'forms.php';?>
  <!-- navigation -->
  <div class="whole">
   <div class="links">
@@ -126,32 +125,32 @@
  	<tfoot>
  		<tr>
  			<td></td>
- 			<td colspan="2">Make sure you bet right!  Or you WILL pay the price!</td>
+ 			<td colspan="1">Make sure you bet right!  Or you WILL pay the price!</td>
  		</tr>
  	</tfoot>
  </table>
  </div>	
- <div>
  <form id="FormData" action="forms.php" method="POST">
  	<fieldset>
- 	<label for="firstName">First name:</label><br>
- 	<input id="firstName" type="text" name="firstname" required="required" placeholder="first">
+ 	<label for="firstName">First Name:</label><br>
+ 	<input class="all" id="firstName" type="text" name="firstname" required="required" placeholder="first">
  	<br>
  	<br>
  	<label for="lastName">Last Name:</label><br>
- 	<input id="lastName" type="text" name="lastname" required="required" placeholder="last">
+ 	<input class="all" id="lastName" type="text" name="lastname" required="required" placeholder="last">
  	<br>
  	<br>
- 	<label for="Email">Email:</label><br>
- 	<input id="Email" type="email" name="Email" required="required" placeholder="@anywhere.com">
+ 	<label id="stop" for="Email">Email:</label><br>
+ 	<input class="all" id="Email" type="email" name="Email" required="required" placeholder="@anywhere.com">
  	<br>
  	<br>
  	<label for="nickName">Nick Name:</label><br>
- 	<input id="nickName" type="text" name="NickName" placeholder="crimsoncrust"> 	
- 	<p>Who are you? Pick one!:<br>
- 	<input type="radio" name="what" value="Groupie" checked="checked"/> Groupie
- 	<input type="radio" name="what" value="Player"/> Player
- 	<input type="radio" name="what" value="UltraFan"/> UltraFan
+ 	<input class="all" id="nickName" type="text" name="NickName" placeholder="crimsoncrust"> 	
+ 	<p class="clear">Who are you? Pick one!<br>
+ 	<br>
+ 	<input class="stop" type="radio" name="what" value="Groupie" checked="checked"/> Groupie
+ 	<input class="stop" type="radio" name="what" value="Player"/> Player
+ 	<input class="stop" type="radio" name="what" value="UltraFan"/> UltraFan
  	</p>
  	<p>Tell us all about yourself!</p>
  	<textarea name="comments" class="comments">
@@ -169,8 +168,8 @@
  	<br>
  	<br>
  	<p>
- 	<input type="submit" value="submit" id="submit">
- 	<input type="reset" value="reset" id="reset">
+ 	<input class="all" type="submit" value="submit" id="submit">
+ 	<input class="all" type="reset" value="reset" id="reset">
  	</p>
  	</fieldset>
  </form>
