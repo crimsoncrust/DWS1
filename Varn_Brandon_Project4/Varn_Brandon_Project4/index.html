@@ -12,6 +12,8 @@
  <body>
  <!-- navigation -->
  <div class="whole">
+<header>
+ <nav>
   <div class="links">
    <ul>
     <li><a href="#players">Players</a><br/></li>
@@ -19,8 +21,11 @@
     <li><a href="#pictures">Pictures</a><br/></li>
     <li><a href="#table">Hand Ranks</a><br/></li>
    </ul>
+   </div>
+  </nav>
+  </header>
   	<!--playing poker header and list -->
-</div>
+<section>
  <div id="floatleftcolumn">
  <div class="column">
  <div class="here">
@@ -42,6 +47,7 @@
   </ul>
  </div>
  </div>
+ </section>
   <!-- rules and list of rules class and id added for header and paragraph -->
  <div id="floatright">
  <div class="column">
@@ -61,6 +67,7 @@
  </div>
  </div>
   	<!-- pictures and list of pictures to display inline block -->
+ <aside>
  <h4 id="pictures" class="clear">Pictures of DHG and the boys</h4>
  <ul class="img">
   	<li><figure> <a href="images/TheBoss.jpg"><img src="images/TheBossSmall.jpg" alt="Head Honcho of the poker game."/></a>
@@ -70,6 +77,7 @@
   	<li><figure> <a href="images/TheDogHouse.jpg"><img src="images/TheDogHouseSmall.jpg" alt="The Dog House."/></a>
   		<figcaption>The Dog House Watch Out!</figcaption></figure></li>
  </ul>
+ </aside>
  <h5> Hand Rankings</h5>
  <button onclick="cecontrol('hands')">Hand Rankings</button>
  <div class="column" id="table">
@@ -77,7 +85,7 @@
  	<thead>
  		<tr>
  			<th scope="col">Ranking</th>
- 			<th scope"col">Description</th>
+ 			<th scope="col">Description</th>
  		</tr>
  	</thead>
  	<tbody>
@@ -133,51 +141,51 @@
  <h6>Sign Up to Stay Up to Date on ALL DHG Matters!</h6>
  <form id="FormData" action="forms.php" method="POST">
  	<fieldset>
- 	<label for="firstName">First Name:</label><br>
- 	<input class="all" id="firstName" type="text" name="firstname" required="required" placeholder="first">
- 	<br>
- 	<br>
- 	<label for="lastName">Last Name:</label><br>
- 	<input class="all" id="lastName" type="text" name="lastname" required="required" placeholder="last">
- 	<br>
- 	<br>
- 	<label id="stop" for="Email">Email:</label><br>
- 	<input class="all" id="Email" type="email" name="Email" required="required" placeholder="@anywhere.com">
- 	<br>
- 	<br>
- 	<label for="nickName">Nick Name:</label><br>
- 	<input class="all" id="nickName" type="text" name="NickName" placeholder="crimsoncrust"> 	
- 	<p class="clear">Who are you? Pick one!<br>
- 	<br>
- 	<input class="stop" type="radio" name="what" value="Groupie" checked="checked"/> Groupie
- 	<input class="stop" type="radio" name="what" value="Player"/> Player
- 	<input class="stop" type="radio" name="what" value="UltraFan"/> UltraFan
- 	</p>
- 	<p>Tell us all about yourself!</p>
- 	<textarea name="comments" class="comments">
- 		Tell us about yourself!
- 	</textarea>
- 	<p>What would you like to see changed or updated?</p>
- 	<textarea name="comments" class="comments">
- 		Enter all ideas and comments...
- 	</textarea>   
- 	<p>Do you wish to be added to our email list?</p>
- 	<select name="Add">
- 	<option value="no" selected="selected">No</option>
- 	<option value ="yes">Yes</option>
- 	</select>
- 	<br>
- 	<br>
- 	<p>
- 	<input class="all" type="submit" value="submit" id="submit">
- 	<input class="all" type="reset" value="reset" id="reset">
- 	</p>
+	 	<label for="firstName">First Name:</label><br>
+	 	<input class="all" id="firstName" type="text" name="firstname" required="required" placeholder="first">
+	 	<br>
+	 	<br>
+	 	<label for="lastName">Last Name:</label><br>
+	 	<input class="all" id="lastName" type="text" name="lastname" required="required" placeholder="last">
+	 	<br>
+	 	<br>
+	 	<label id="stop" for="Email">Email:</label><br>
+	 	<input class="all" id="Email" type="email" name="Email" required="required" placeholder="@anywhere.com">
+	 	<br>
+	 	<br>
+	 	<label for="nickName">Nick Name:</label><br>
+	 	<input class="all" id="nickName" type="text" name="NickName" placeholder="crimsoncrust"> 	
+	 	<p class="clear">Who are you? Pick one!<br>
+	 	<br>
+	 	<input class="stop" type="radio" name="what" value="Groupie" checked="checked"/> Groupie
+	 	<input class="stop" type="radio" name="what" value="Player"/> Player
+	 	<input class="stop" type="radio" name="what" value="UltraFan"/> UltraFan
+	 	</p>
+	 	<p>Tell us all about yourself!</p>
+	 	<textarea name="comments" class="comments">
+	 		Tell us about yourself!
+	 	</textarea>
+	 	<p>What would you like to see changed or updated?</p>
+	 	<textarea name="comments" class="comments">
+	 		Enter all ideas and comments...
+	 	</textarea>   
+	 	<p>Do you wish to be added to our email list?</p>
+	 	<select name="Add">
+	 	<option value="no" selected="selected">No</option>
+	 	<option value ="yes">Yes</option>
+	 	</select>
+	 	<br>
+	 	<br>
+	 	<p>
+	 	<input class="all" type="submit" value="submit" id="submit">
+	 	<input class="all" type="reset" value="reset" id="reset">
+	 	</p>
  	</fieldset>
  </form>
   	<!-- footer -->
  </div>
- <div id="footer">
+ <footer id="footer">
   <p>&copy; TheDogHouse</p>
- </div>
+ </footer>
 </body>
 </html>

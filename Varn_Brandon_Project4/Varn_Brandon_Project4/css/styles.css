@@ -292,6 +292,7 @@ form {
 	width:60%;
 	padding:1%;
 	border:none;
+	text-align: left;
 }
 
 input.all {
